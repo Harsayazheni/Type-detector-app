@@ -58,6 +58,37 @@ document.getElementById("output").innerHTML=typedetector(input);
 
 4.Add some basic css.
 
+## Second Version
+### index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Type Detector App</title>
+</head>
+<body>
+    <h1>Type Detector App</h1>
+    <p id="output"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+### script.js
+```
+let input=prompt("Enter your value to get the type");
+let typedetector=typeof input;
+document.getElementById("output").innerHTML=typedetector;
+```
+### Explanation
+1.Used typeof for detecting data type of the input.
+#### Why not just use typeof on the prompt() input?
+It always returns ```string```
+### Output
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2c316515-8dfb-44bf-acf8-c400ca188cbc" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e988dae9-35c1-4445-900f-934c27a52875" />
+
+
+
 ## Try it on live
 https://harsayazheni.github.io/Type-detector-app/
 
