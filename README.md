@@ -83,6 +83,8 @@ document.getElementById("output").innerHTML=typedetector;
 1.Used typeof for detecting data type of the input.
 #### Why not just use typeof on the prompt() input?
 It always returns ```string```
+#### What can we do instead?
+We ```manually parse``` and check the data type of the input as done in the ```first version```.
 ### Output
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2c316515-8dfb-44bf-acf8-c400ca188cbc" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e988dae9-35c1-4445-900f-934c27a52875" />
